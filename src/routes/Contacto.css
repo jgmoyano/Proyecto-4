@@ -21,3 +21,21 @@
 .inputform2{
     -webkit-text-fill-color: rgb(0, 0, 0);
 }
+
+@media (max-width: 900px) {
+    .containercontacto2{
+        display: none;
+    }
+    .containercontacto{
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+
+    #info-contacto{
+       display: none;
+    }
+
+}

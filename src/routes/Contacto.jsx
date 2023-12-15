@@ -59,7 +59,7 @@ export const Contacto = () => {
                 </div>
                 <div className='containercontacto2'></div>
             </div>
-            <div className='row mx-4 mb-5 text-center'>
+            <div id='info-contacto' className='row mx-4 mb-5 text-center'>
                 <div className='col mt-4'><h5>TELEFONO</h5>
                     <h6>+56 9 98554455</h6>
                 </div>

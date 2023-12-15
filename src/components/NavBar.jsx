@@ -23,7 +23,7 @@ export const NavBar = () => {
                 <a className="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><h5>
                   Comer</h5>
                 </a>
-                <ul className="dropdown-menu bg-secondary">
+                <ul className="dropdown-menu bg-secondary dropdown-menu-end">
                   <li><Link className="dropdown-item text-light hover-dark" to="/Proyecto-4/reservas">Reservar en Local</Link></li>
                   <li><Link className="dropdown-item text-light" to="/Proyecto-4/domicilio">Pedir a Domicilio</Link></li>
                 </ul>

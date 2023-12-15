@@ -16,3 +16,27 @@ input{
 h6{
     text-decoration: none;
 }
+
+.imagenreserva{
+    max-width: 100%;
+    padding: 40px;
+    }
+
+input{
+    width: 600px;
+}
+
+@media (max-width: 645px) {
+    input{
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    input{
+        width: 200px;
+    }
+    #lista-interna{
+        display: none;
+    }
+}

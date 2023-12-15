@@ -14,3 +14,14 @@ p{
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 1100px) {
+    .imagenprincipal{
+        max-width: 100%;
+        padding: 40px;
+    }
+    p{
+        text-align: center;
+        padding: 40px;
+    }
+  }

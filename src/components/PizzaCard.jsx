@@ -13,7 +13,7 @@ export const PizzaCard = ({ title, title2, image, description }) => {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Title>{title2}</Card.Title>
-        <Card.Text>{description}</Card.Text>
+        <Card.Text className="p-0 m-0">{description}</Card.Text>
       </Card.Body>
     </Card>
   );

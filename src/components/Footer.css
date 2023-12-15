@@ -1,0 +1,38 @@
+@media (max-width: 767px) { 
+
+footer div{
+    text-align: center;
+}
+
+footer img{
+    display: none;
+}
+#footer-rrss{
+    justify-content: center !important;
+}
+
+.bi {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#enlaces{
+    background-color: aqua;
+    display: none;
+}
+
+}
+
+@media (max-width: 450px) { 
+
+    footer{
+        
+        bottom: 0px;
+        width: 100%;
+    }
+
+    #foot-dir{
+        display: none;
+    }
+
+}

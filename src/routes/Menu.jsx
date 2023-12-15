@@ -39,7 +39,7 @@ export const Menu = () => {
       <div className="container d-flex justify-content-center">
         <div className="row">
           {pizzas.map((pizza) => (
-            <div className="col-md-4" key={pizza.id}>
+            <div className="col-md-4 d-flex justify-content-center" key={pizza.id}>
               <PizzaCard
                 title={pizza.title}
                 title2={pizza.title2}

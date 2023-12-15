@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logoPequeño from '../assets/logopequeño.png'
+import './Footer.css'
 
 export const Footer = () => {
     return (
@@ -12,11 +13,11 @@ export const Footer = () => {
                             <Link to='Proyecto-4/' className='mb-3 col-12 col-md-3 d-flex align-items-center'>
                                 <img src={logoPequeño} height='80' />
                             </Link>
-                            <ul className="col-12 col-md-3 list-unstyled">
+                            <ul id='foot-dir' className="col-12 col-md-3 list-unstyled">
                                 <li className='font-weight-bold mb-2'>PIZZERIA MILANO</li>
                                 <li>+56 9 98554455 <br />Calle 5 Norte 3670, Talca <br />Region del Maule</li>
                             </ul>
-                            <ul className="col-12 col-md-3 list-unstyled">
+                            <ul id='enlaces' className="col-12 col-md-3 list-unstyled">
                                 <li className='font-weight-bold mb-2'>ENLACES</li>
                                 <li>
                                     <Link to='Proyecto-4/' className='text-reset'>Home</Link>
@@ -30,7 +31,7 @@ export const Footer = () => {
                             </ul>
                             <ul className="col-12 col-md-3 list-unstyled">
                                 <li className='font-weight-bold mb-2 text-center'>SIGUENOS</li>
-                                <li className="d-flex justify-content-between pt-3">
+                                <li className="d-flex justify-content-between pt-3" id='footer-rrss'>
                                     <i className="bi bi-facebook" />
                                     <i className="bi bi-instagram" />
                                     <i className="bi bi-twitter" />

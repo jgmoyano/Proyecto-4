@@ -79,7 +79,7 @@ export const Reservas = () => {
                 <Button className='mt-4' onClick={createReserva} variant='secondary'>Reservar</Button>
             </div>
             <h5 className='text-center p-4'> No llegues tarde... </h5>
-            <Link className='text-center text-secondary' to="/Proyecto-4/lista-reservas"><h6>Lista interna de Reservados</h6></Link>
+            <Link id='lista-interna' className='text-center text-secondary' to="/Proyecto-4/lista-reservas"><h6>Lista interna de Reservados</h6></Link>
         </>
     )
 }
